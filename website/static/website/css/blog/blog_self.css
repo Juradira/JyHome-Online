@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: bernardo-moda-bold;
+	src: url('../../font/bernardo-moda-bold.eot'),
+		url('../../font/bernardo-moda-bold.ttf');
+}
+
+@font-face {
+	font-family: callie-hand;
+	src: url('../../font/callie-hand-1-0.eot'),
+		url('../../font/callie-hand-1-0.ttf');
+}
+
+@font-face {
+	font-family: jura-medium;
+	src: url('../../font/jura-medium.eot'),
+		url('../../font/jura-medium.ttf');
+}
+
+@font-face {
+	font-family: Georgia;
+	src: url('../../font/Georgia.eot'),
+		url('../../font/Georgia.ttf');
+}
+
+@font-face {
+	font-family: Verdana;
+	src: url('../../font/Verdana.eot'),
+		url('../../font/Verdana.ttf');
+}
+
+@font-face {
+	font-family: utopia-std-regular;
+	src: url('../../font/utopia-std-regular.eot'),
+		url('../../font/utopia-std-regular.ttf');
+}
+
+body {
+	/* background: #72D0F4; */
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+.bg-blue {
+	background: #FFF1DD;
+}
+
+a {
+	font-size: 38px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-family: jura-medium;
+}
+a:hover {
+	color: #FF534D;
+}
+
+.common-a {
+	font-size: 26px;
+	color: #000;
+}
+
+h1{
+	font-family: callie-hand;
+	color: #FFFFFF;
+}
+
+h3 {
+	font-family: jura-medium;
+	color: #FFFFFF;
+	margin-top: 0;
+}
+
+.badge {
+    filter: alpha(Opacity=75);
+    -moz-opacity: 0.75;
+    opacity: 0.75;
+}
+
+.website-opacity {
+	filter: alpha(Opacity=75);
+	-moz-opacity: 0.75;
+	opacity: 0.75;
+}
+
+.navigate {
+	padding-top: 10%;
+}
+
+#masker {
+	height: 100%;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.1);
+}
+
+.blog-container {
+	/* background: #FFFFE0; */
+	background-image: url("../../images/blog/alchemy.gif");
+	padding-left: 35%;
+	padding-top: 2%;
+	padding-right: 5%
+}
+
+.contact_icon {
+	/* padding-top: 20%; */
+	position: absolute;
+	bottom: 5%;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+#Jingyi {
+	border-style: solid;
+    border-color: #FFAABB;
+	border-radius: 50%;
+}
+
+
+.against_margin {
+	margin-left: 0;
+}
+
+#flanker {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-image: url("../static/images/blog/Preview.png");
+}
+
+.user-padding-top {
+	padding-top: 5%;
+}
+.user-padding-bottom {
+	padding-bottom: 5%;
+}
+
+
+.am-font {
+	color: #000;
+	font-family: Georgia;
+	font-size: 38px;
+}
+
+.am-contact {
+	font-family: utopia-std-regular;
+	position: absolute;
+	bottom: 5%;
+	margin: auto;
+}
+
+.am-context {
+	font-size: 18px;
+	font-family: utopia-std-regular;
+}
