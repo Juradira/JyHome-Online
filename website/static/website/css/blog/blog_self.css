@@ -84,14 +84,17 @@ h3 {
 	opacity: 0.75;
 }
 
-.navigate {
-	padding-top: 10%;
-}
-
 #masker {
 	height: 100%;
 	width: 100%;
 	background: rgba(0, 0, 0, 0.1);
+}
+
+.cll {
+	background-image: #fff000;
+	padding-left: 35%;
+	padding-top: 2%;
+	padding-right: 5%
 }
 
 .blog-container {
@@ -100,6 +103,24 @@ h3 {
 	padding-left: 35%;
 	padding-top: 2%;
 	padding-right: 5%
+}
+
+.navigate {
+	/* padding-top: 40%; */
+	position: absolute;
+	bottom: 30%;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.user_area {
+	/* padding-top: 40%; */
+	position: absolute;
+	top: 10%;
+	left: 0;
+	right: 0;
+	margin: auto;
 }
 
 .contact_icon {
@@ -122,11 +143,11 @@ h3 {
 	margin-left: 0;
 }
 
-#flanker {
+.flanker {
 	position: fixed;
 	top: 0;
 	left: 0;
-	background-image: url("../static/images/blog/Preview.png");
+	background-image: url("../../images/blog/Preview.png");
 }
 
 .user-padding-top {
