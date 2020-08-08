@@ -45,77 +45,10 @@
         <div class="uk-width-1-1 blog-container" id="context-box">
             <hr class="uk-divider-icon">
 
-            {% for article in articles %}
-            {% if forloop.counter0|divisibleby:4 %}
-            <div class="uk-child-width-1-2@m" uk-grid>
-                <div>
-                    <div class="uk-card uk-card-default uk-card-hover user-padding-top">
-                        <div class="uk-card-media-top uk-text-center">
-                            <img src="{% static "uploads" %}/{{ article.cover_name }}" width="250" height="250" alt="">
-                        </div>
-                        <div class="uk-card-body">
-                            <h3 class="uk-card-title">{{ article.title }}</h3>
-                            <p>{{ article.abstract }}</p>
-                            <p>{{ article.pub_date }}</p>
-                            <a class="uk-width-1-1 uk-button uk-button-default" style="background-color:#3399CC;color:#FFF" href="show_article/{{ article.file_name }}/{{ article.true4pdf_false4markdown }}" target="_blank">DETAIL</a>
-                        </div>
-                    </div>
-                </div>
-            {% elif forloop.counter0|add:-1|divisibleby:4 %}
-                <div>
-                    <div class="uk-card uk-card-default uk-card-hover user-padding-bottom">
-                        <div class="uk-card-body">
-                            <h3 class="uk-card-title">{{ article.title }}</h3>
-                            <p>{{ article.abstract }}</p>
-                            <p>{{ article.pub_date }}</p>
-                            <a class="uk-width-1-1 uk-button uk-button-default" style="background-color:#FF6666;color:#FFF" href="show_article/{{ article.file_name }}/{{ article.true4pdf_false4markdown }}" target="_blank">DETAIL</a>
-                        </div>
-                        <div class="uk-card-media-bottom uk-text-center">
-                            <img src="../static/uploads/{{ article.cover_name }}" width="250" height="250" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {% elif forloop.counter0|add:-2|divisibleby:4 %}
-            <hr class="uk-divider-icon">
-            <div class="uk-card uk-card-default uk-card-hover uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
-                <div class="uk-card-media-left uk-flex uk-flex-center uk-flex-middle user-padding-top user-padding-bottom">
-                    <img  src="../static/uploads/{{ article.cover_name }}" width="250" height="250" alt="">
-                </div>
-                <div>
-                    <div class="uk-card-body">
-                        <h3 class="uk-card-title">{{ article.title }}</h3>
-                        <p>{{ article.abstract }}</p>
-                        <p>{{ article.pub_date }}</p>
-                        <a class="uk-width-1-1 uk-button uk-button-default" style="background-color:#99CC00;color:#FFF;" href="show_article/{{ article.file_name }}/{{ article.true4pdf_false4markdown }}" target="_blank">DETAIL</a>
-                    </div>
-                </div>
-            </div>
-            <hr class="uk-divider-icon">
-            {% else %}
-            <div class="uk-card uk-card-default uk-card-hover uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
-                <div class="uk-flex-last@s uk-card-media-right uk-flex uk-flex-center uk-flex-middle user-padding-top user-padding-bottom">
-                    <img src="../static/uploads/{{ article.cover_name }}" width="250" height="250" alt="">
-                </div>
-                <div>
-                    <div class="uk-card-body">
-                        <h3 class="uk-card-title">{{ article.title }}</h3>
-                        <p>{{ article.abstract }}</p>
-                        <p>{{ article.pub_date }}</p>
-                        <a class="uk-width-1-1 uk-button uk-button-default" style="background-color:#FF9900;color:#FFF" href="show_article/{{ article.file_name }}/{{ article.true4pdf_false4markdown }}" target="_blank">DETAIL</a>
-                    </div>
-                </div>
-            </div>
-            <hr class="uk-divider-icon">
-            {% endif %}
-            {% endfor %}
+<hr width=80% size=3 color=#5151A2 style="filter:progid:DXImageTransform.Microsoft.Shadow(color#5151A2,direction:145,strength:15)">
 
-            {% if is_difference_match %}
-            </div>
-            {% endif %}
-            </div>
+            <hr class="uk-divider-icon">
         </div>
     </div>
-
-    <embed src="{% static "sound/blog/Thriller-cped.mp3" %}" autostart="true" loop="true" hidden="true"></embed>
+    <!-- <embed src="{% static "sound/blog/Thriller-cped.mp3" %}" autostart="true" loop="true" hidden="true"></embed> -->
 </body>

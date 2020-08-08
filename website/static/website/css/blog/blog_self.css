@@ -134,14 +134,14 @@ h3 {
 
 #Jingyi {
 	border-style: solid;
-    border-color: #FFAABB;
+  border-color: #FFAABB;
 	border-radius: 50%;
 }
 
 
-.against_margin {
+/* .against_margin {
 	margin-left: 0;
-}
+} */
 
 .flanker {
 	position: fixed;
@@ -157,7 +157,11 @@ h3 {
 	padding-bottom: 5%;
 }
 
+hr {
+	background-color: #FFFFFF;
+}
 
+/*
 .am-font {
 	color: #000;
 	font-family: Georgia;
@@ -174,4 +178,4 @@ h3 {
 .am-context {
 	font-size: 18px;
 	font-family: utopia-std-regular;
-}
+} */
